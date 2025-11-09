@@ -31,7 +31,7 @@ echo [%date% %time%] Script started by %username% >> "%logFile%"
 :main_menu
 cls
 echo ========================================
-echo    ADVANCED WINDOWS DEFENDER MANAGER
+echo    ADVANCED WINDOWS DEFENDER MANAGER  (Yaxploit)
 echo    Educational Use - Controlled Lab Only
 echo ========================================
 echo.
@@ -199,7 +199,7 @@ goto main_menu
 :service_management
 cls
 echo ========================================
-echo         SERVICE MANAGEMENT
+echo         SERVICE MANAGEMENT 
 echo ========================================
 echo.
 echo 1. Stop Defender Services
@@ -287,4 +287,5 @@ echo Thank you for using Advanced Defender Manager
 echo Remember to re-enable protection after testing!
 echo.
 pause
+
 exit /b 0
